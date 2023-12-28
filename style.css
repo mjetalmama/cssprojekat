@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+    background-color:#b146bd;
+}
+
+nav {
+    height: 80px;
+    background: #b146bd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #000;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0 30px;
+}
+
+nav li {
+    text-decoration: none;
+    color: #000;
+    padding: 0 25px;
+    display: inline;
+}
+
+li:hover{
+    font-weight: bold;
+    color: #000;
+}
+
+.lessons {
+    background-color: #b146bd;
+}
+
+.lesson-container {
+    display: grid;
+    height: 300px;
+    width: 750px;
+}
+
+.column-left {
+    
+    justify-content: center;
+    color: #000;
+    padding: 0 30px;
+}
+
+.column-left h1 {
+    margin-top: 50px;
+    margin-bottom: 16px;
+    font-size: 50px;
+}
+
+footer {
+    background-color: #660c6f;
+    border-top: #000 3px ;
+    height: 20px;
+}
+
+.column-left p {
+    font-size: 20px;
+}
+
+#subscribe {
+    padding: 16px 50px; 
+    font-size: 16px;
+    border: none;
+    color: #b146bd;
+    background: #000;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+
+#subscribe:hover {
+    background: #fff;
+    color: #000;
+}
+
+.column-right {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    max-width: 100%;
+    max-height: 100%;
+    float: right;
+    
+}
+
+.lesson-image {
+   width: 500px;
+   height: 350px;
+}
+
+#boxes .box {
+    float: left;
+    width: 30%;
+}
+
+form {
+    max-width: 300px;
+    margin: 40px 50px;
+    float: left;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    background-color: #cd80d5;
+    border-radius: 30px;
+  }
+
+#send {
+    padding: 10px 15px;
+    border-color: #fff 3px;
+    border-radius: 40px;
+    cursor: pointer;
+    background-color: #cd80d5;
+    color:#000;
+    border-color: #000;
+}
+
+#send:hover{
+    background-color: #660c6f;
+    color: #fff;
+    border-color: #fff;
+    
+}
+
+.onama {
+    padding: 40px;
+    margin: 40px;
+    background-color: #660c6f;
+    color: #fff;
+    border-radius: 50px;
+    border-color: #fff 3px;
+}
+
+.o-nama {
+    background-color: #660c6f;
+    padding: 5px;
+}
+
+.space {
+    margin: 150px;
+    padding:100px
+}
+
+#futer {
+    
+    color:#fff;
+}
+
+@media(max-width: 800px){
+    header, header nav, header nav li {
+        float:none;
+        text-align:center;
+        width:100%
+    }
+}
+
+
+
+
